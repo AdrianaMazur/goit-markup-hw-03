@@ -1,0 +1,246 @@
+:root {
+  --main-color: rgb(67, 68, 85);
+  --text-color: rgb(46, 47, 66);
+  --accent-color: rgb(77, 90, 229);
+  --brand-color: rgb(64, 75, 191);
+  --background-color: rgb(255, 255, 255);
+  --shaded-color: rgb(244, 244, 253);
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color);
+  background-color: var(--background-color);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+.logo {
+  text-decoration: none;
+}
+.logo-slice {
+  font-family: "Raleway", "sans-serif";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.menu-link.link {
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--brand-color);
+}
+.link:hover.link:focus {
+  color: var(--brand-color);
+}
+.contact-link .link {
+  color: var(--main-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contact-link .link:hover,
+.contact-link .link:focus {
+  color: var(--brand-color);
+}
+
+.adress {
+  font-style: normal;
+}
+.list {
+  list-style: none;
+}
+
+/* HERO */
+
+
+.hero-title {
+  color: var(--background-color);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  
+}
+.hero {
+  background-color: var(--text-color);
+}
+
+.button {
+  font-family: 'Roboto', sans-serif; 
+  color: var(--background-color);
+  background-color: var(--accent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+background-color: var(--brand-color);
+  
+ 
+}
+
+/* LIST OF FEATURES */
+
+.features .features-title {
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.features .features-descr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+/* PHOTOS OF SPECIFIC OF WORK */
+.specific-title {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+
+/* LIST OF EMPLOYEES */
+.section {
+  background-color: var(--shaded-color);
+}
+.section-title {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.employees-list .img {
+  background-color: #FFFFFF;
+}
+.employees-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+
+}
+
+.img .employees-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing:0.02em;
+  color: var(--main-color);
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--text-color);
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+.footer-logo {
+  text-decoration: none;
+}
+.logo-half {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--shaded-color);
+}
+
+.footer-text {
+  color: var(--shaded-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* PORTFOLIO */
+.section-filter {
+  background-color: var(--background-color);
+}
+/* BUTTON-FILTERS */
+.button-filter {
+  font-family: 'Roboto', sans-serif;
+  color: var(--accent-color);
+  background-color: var(--shaded-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button-filter:hover, 
+.button-filter:focus {
+  color: var(--background-color);
+  background-color: var(--brand-color)
+}
+
+/* PICTURES */
+
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+
+.link .list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--text-color);
+
+}
+
+.link .list-filter {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
